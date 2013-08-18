@@ -10,7 +10,14 @@
   "port":"8081",
   "db":{
     "mysql":{
-    
+      "host":"localhost",
+      "password":"3011354",
+      "username":"root",
+      "database":"Jbcms"
+    },
+    "mongodb":{
+      "url":"mongodb://127.0.0.1:27017/Jbcms",
+      "database":"Jbcms"
     }
   },
   "mail":{
